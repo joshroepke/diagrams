@@ -12,4 +12,6 @@ with Diagram("AWS Infra Example", show=False):
     with Cluster("ca-central-1"):
         vpc = VPC("prod-vpc")
 
-        vcs >> ci >> iac >> vpc
+    vcs >> ci >> iac >> vpc
+
+# this is a comment
